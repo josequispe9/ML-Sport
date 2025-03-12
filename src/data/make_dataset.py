@@ -20,6 +20,8 @@ files = glob('../../data/raw/MetaMotion/*.csv')
 # Extract features from filename
 # --------------------------------------------------------------
 
+data_path = "../../data/raw/MetaMotion/*.csv"
+f = files[0]
 
 # --------------------------------------------------------------
 # Read all files
